@@ -45,7 +45,7 @@ let corredor = {
 
 console.log
 console.log("este es " + corredor.nombre + "." + "Tiene 23 años y quemó" + corredor.total(5)) + " calorias";
-
+*/
 function constructoraAutos (marca, modelo, año){
     this.marca = marca;
     this.modelo = modelo;
@@ -58,7 +58,7 @@ function constructoraAutos (marca, modelo, año){
 let Volkswagen = new constructoraAutos("BMW", "Serie 3", "2022");
 console.log(Volkswagen.retorno());
 
-/* let personaBoliche = {
+let personaBoliche = {
     name : "Carlitos",
     edad : 17,
     tieneDNI : true,
@@ -69,7 +69,7 @@ console.log(Volkswagen.retorno());
             return "te vas"
         }
     }
-} */
+} 
 
 function PasaBoliche (name, age, hasDNI){
     this.name = name;
